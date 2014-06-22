@@ -3,12 +3,15 @@
 
 class Number
 {
+public:
+    Number(int n);    
+    std::vector<int> getFactors(int n);
+    int getLargestPrimeFactor();
 
 private:
     int mNumber;
     std::vector<int> mFactors;
+    std::vector<int> primeNumbers;
    	
-    Number(int n);
-    std::vector<int> function getFactors();
-    int function getLargestPrimeFactor();
-}
+
+};
