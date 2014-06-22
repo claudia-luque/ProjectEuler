@@ -30,7 +30,7 @@ std::vector<int> Number::getFactors(int mNumber)
    }
    else
        primeNumbers.push_back(mNumber);
-
+       
    return primeNumbers;
 }
 
@@ -49,7 +49,7 @@ int Number::getLargestPrimeFactor()
 }
 
 int main() {
-	
+    
     Number obj(5);
     obj.getFactors(12);
     std::cout<<obj.getLargestPrimeFactor()<<std::endl;
