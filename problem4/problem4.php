@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Claudia
- * Date: 06/12/14
- * Time: 22:45
- */
 
 class problem4
 {
@@ -58,9 +52,3 @@ class problem4
 $obj = new problem4();
 $answer = $obj->findLargestPalindromeNumber(998001);
 var_dump($answer);
-/*
-$test = $obj->splitNumber(9009);
-var_dump($test);
-$palindrome = $obj->isPalindrome($test);
-var_dump($palindrome);
-*/
